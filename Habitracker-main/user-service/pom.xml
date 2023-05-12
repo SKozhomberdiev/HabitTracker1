@@ -14,20 +14,17 @@
             <groupId>com.intership.app</groupId>
             <artifactId>service-client</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.intership.app</groupId>
             <artifactId>habit-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.intership.app</groupId>
-            <artifactId>habit-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
     </dependencies>
     <artifactId>users</artifactId>
 

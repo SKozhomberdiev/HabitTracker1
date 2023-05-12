@@ -16,12 +16,19 @@
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-    </dependencies>
-    <artifactId>tracking-service</artifactId>
+        <dependency>
+            <groupId>com.intership.app</groupId>
+            <artifactId>users</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
+            <scope>compile</scope>
+        </dependency>
+                </dependencies>
+                <artifactId>tracking-service</artifactId>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+                <properties>
+                    <maven.compiler.source>17</maven.compiler.source>
+                    <maven.compiler.target>17</maven.compiler.target>
+                </properties>
 
-</project>
+            </project>

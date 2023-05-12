@@ -14,6 +14,7 @@
             <groupId>com.intership.app</groupId>
             <artifactId>users</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -22,12 +23,7 @@
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.intership.app</groupId>
-            <artifactId>tracking-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
     </dependencies>
     <artifactId>habit-service</artifactId>
 

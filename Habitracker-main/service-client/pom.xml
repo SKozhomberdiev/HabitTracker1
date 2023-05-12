@@ -9,6 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.intership.app</groupId>
+            <artifactId>users</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
     <artifactId>service-client</artifactId>
 
     <properties>
